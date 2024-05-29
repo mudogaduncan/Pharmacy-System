@@ -1,0 +1,122 @@
+a.small_btn {
+  font-size: 5px;
+}
+.content {
+  margin: auto;
+  width: 1100px;
+}
+
+.notification {
+  /* background-color: #233488; */
+  text-decoration: none;
+  color: red;
+  padding: 10px 26px;
+  position: relative;
+  display: inline-block;
+  border-radius: 2px;
+
+
+}
+.icon-exclamation-sign.badge {
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+.notification:hover {
+  cursor: pointer;
+}
+
+.notification .badge {
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  padding: 4px 7px 4px 5px;
+  border-radius: 50%;
+  background-color: red;
+  color: white;
+}
+
+
+.background img{
+ position: absolute;
+ display: block;
+ height: 90vh;
+ width: 99vw;
+ background-attachment: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+center h1{
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  color: maroon;
+  font-size: 42px;
+  padding: 90px 5px;
+  justify-content: center;
+  place-content: center;
+}
+
+.content{
+  display: flex;
+  position: relative;
+  background-color: maroon;
+  /* opacity: .5; */
+  border-radius: 15px;
+  justify-content: left;
+  place-items: left;
+  width: 100%;
+  padding: 20px;
+}
+
+.content input{
+  outline: none;
+  border: none;
+  width: 300px;
+  line-height: 1.8rem;
+  border-radius: 10px;
+  color: teal;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 8px 12px;
+  padding-left: 10px;
+}
+
+
+.content #subbtn{
+  background-color: #000;
+  place-self: center;
+  margin-left: 28%;
+  width: 200px ;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#subbtn:hover{
+  background-color: red;
+  transition: ease-in-out 1s;
+}
+
+.content label{
+  font-size: 17px;
+  font-weight: 700;
+  color: #fff;
+}
+
+@media only screen and (max-width: 979px) {
+  .notification .badge {
+    position: relative;
+    top: -9px;
+    right: 1px;
+    padding: 4px 7px 4px 5px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+  }
+}
