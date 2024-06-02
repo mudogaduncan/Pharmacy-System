@@ -280,7 +280,7 @@
   
                   while($row = mysqli_fetch_array($select_query)){
   
-                     echo '$'.$row['sum(total_amount)'];
+                     echo 'Ksh'.$row['sum(total_amount)'];
   
                 }
   
@@ -295,7 +295,7 @@
   
                   while($row = mysqli_fetch_array($select_query)){
   
-                     echo '$'.$row['sum(total_profit)'];
+                     echo 'Ksh'.$row['sum(total_profit)'];
                 }
                   ?>
   

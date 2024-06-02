@@ -145,9 +145,9 @@ if(isset($_POST['submit'])){
   $invoice_number = $_POST['invoice_number'];
   $date = $_POST['date'];
    $medicine_name = $_POST['medicine_name'];
-   $medicines = implode($medicine_name, ",");
+   $medicines = implode(',', $medicine_name);
    $quantity = $_POST['qty'];
-   $qty = implode($quantity, ",");
+   $qty = implode(',', $quantity);
    $qty_type = $qty;
    $filename = "i-".$invoice_number.".pdf";
    $dir      = "";
